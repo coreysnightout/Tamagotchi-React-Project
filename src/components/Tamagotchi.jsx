@@ -18,6 +18,7 @@ function Tamagotchi(props){
     letterSpacing: "2px"
   }
 
+ //test
 
   var screenStyles = {
     marginTop: '20px',
