@@ -1,10 +1,15 @@
 import React from "react";
+import Tamagotchi from "./Tamagotchi";
 
 function App(props){
+  var mainCenterStyles = {
+    display: "flex",
+    justifyContent: "center"
+  }
+
   return (
-    <div>
-      <h1>Stuff to render goes here!</h1>
-      <p>Remember to change the title of the page in webpack.config.js, as well as the project name in package.json etc. (and restart the git repo).</p>
+    <div style={mainCenterStyles}>
+      <Tamagotchi />
     </div>
   );
 }
