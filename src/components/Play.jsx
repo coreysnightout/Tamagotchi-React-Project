@@ -9,7 +9,7 @@ function Play(props){
 
   return (
     <div>
-      <Button block bsStyle="warning" bsSize="large" style={buttonStyles}>Play</Button>
+      <Button onClick={props.playTama} block bsStyle="warning" bsSize="large" style={buttonStyles}>Play</Button>
     </div>
   );
 }

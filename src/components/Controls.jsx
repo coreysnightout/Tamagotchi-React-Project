@@ -15,9 +15,10 @@ function Controls(props){
   return (
     <div>
       <div style={controlsStyles}>
-        <Feed />
-        <Sleep />
-        <Play />
+        <Feed feedTama={props.feedTama}
+        AddFeedTama={props.AddFeedTama}/>
+        <Sleep sleepTama={props.sleepTama} />
+        <Play playTama={props.playTama}/>
       </div>
     </div>
   );

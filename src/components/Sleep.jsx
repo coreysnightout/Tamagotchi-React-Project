@@ -10,7 +10,7 @@ function Sleep(props){
   return (
 
     <div>
-      <Button block bsStyle="warning" bsSize="large" style={buttonStyles}>Sleep</Button>
+      <Button onClick={props.sleepTama} block bsStyle="warning" bsSize="large" style={buttonStyles}>Sleep</Button>
     </div>
   );
 }
